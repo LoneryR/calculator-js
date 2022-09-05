@@ -28,6 +28,21 @@ body{
 	border-bottom: 5px solid rgb(168, 111, 4);
 }
 
+.app__output_num-prev, .app__output_num-now{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+	height: 50%;
+	text-align: end;
+	overflow-wrap: break-word;
+	color: white;
+	padding: 5px;
+}
+
+.app__output_num-prev{
+	font-size: 14px;
+}
+
 button{
 	border: none;
 	transition: .2s all;
