@@ -3,8 +3,6 @@ const now = document.querySelector('.app__output_num-now')
 
 const operators = Array.from(document.querySelectorAll('.operator'))
 
-console.log(operators)
-
 operators.map((button) => {
 	button.addEventListener('click', (e) => {
 		switch(e.target.innerText){
